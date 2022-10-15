@@ -30,7 +30,6 @@ public class NewsFragment extends Fragment {
     NewsViewModel viewModel;
     private FragmentNewsBinding binding;
     private HashMap<String, String> map;
-    private List<NewsModel> getNews;
 
     public NewsFragment() {
     }

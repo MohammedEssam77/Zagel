@@ -3,12 +3,9 @@ package com.example.withoutdagger.viewModel;
 import android.util.Log;
 
 import androidx.hilt.lifecycle.ViewModelInject;
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.withoutdagger.apiService.NewsApiService;
-import com.example.withoutdagger.apiService.NetworkModule;
 import com.example.withoutdagger.pojo.DetailsModel;
 import com.example.withoutdagger.pojo.NewsModel;
 import com.example.withoutdagger.repositry.NewRepository;
