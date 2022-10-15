@@ -7,17 +7,11 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.example.withoutdagger.R;
 import com.example.withoutdagger.databinding.FragmentDetailBinding;
-import com.example.withoutdagger.databinding.FragmentNewsBinding;
 import com.example.withoutdagger.pojo.DetailsModel;
-import com.example.withoutdagger.pojo.NewsModel;
-import com.example.withoutdagger.repositry.NewRepository;
  import com.example.withoutdagger.viewModel.NewsViewModel;
 
 import java.util.HashMap;
